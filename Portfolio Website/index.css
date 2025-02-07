@@ -1,0 +1,138 @@
+
+
+header {
+    background-color: white;
+    height: 50px;
+    gap: 20px;
+    
+}
+
+.flexbox-container{
+    display: flex;
+    
+    
+}
+
+nav span {
+    display: inline-flex;
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: 20px;
+    font-family: 'merriweather';
+}
+
+nav span a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: black;
+    
+}
+
+.aboutMe {
+height: 450px;
+background-color: white;
+z-index:0;
+width: 100%;
+}
+
+.paragraph {
+    float: left;
+    width: 45%;
+    z-index: 1;
+    display: inline-flex;
+    font-family: 'podkova';
+    padding-left: 20px;
+}
+
+#menu{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.1em;
+    
+}
+.photo {
+    display: inline-flex;
+    width: 45%;
+    float: right;
+    padding-right: 60px;
+    
+}
+
+h1, h2, h4 {
+    color: rgb(66, 70, 66);
+    position: relative;
+    top: 15px;
+    left: 210px;
+    font-family: "jersey 15";
+    font-size: 3em;
+}
+
+.projects{
+    background-color: white;
+    height: auto;
+    
+}
+
+.flexbox-container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flexbox-container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item{
+    display: inline-block;
+    color: black;
+    border: medium solid black;
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+}
+
+#app {
+    margin-top:35px;
+    text-align: center;
+    
+}
+
+.skills{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+
+.flexbox-container3{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.techpic{
+    display:inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+footer {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+
+.contactinfo{
+text-align: center;
+padding-bottom: 20px;
+font-size: 1.22em;
+}
